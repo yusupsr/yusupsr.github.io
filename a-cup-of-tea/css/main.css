@@ -1,0 +1,79 @@
+@font-face {
+	font-family: Kaushan;
+	src: url(../fonts/kaushanscript-regular-webfont.woff) format("woff"),
+  url(../fonts/KaushanScript-Regular.otf) format("opentype");
+	font-weight: 400;
+	font-style: normal;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font: 100%/1.4 Georgia, 'Times New Roman', Times, serif;
+}
+
+h1, h2, h3 {
+	font-family: Kaushan, Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #254a0c;
+	color: #fff;
+}
+
+header h1, header nav {
+	display: inline-block;
+}
+
+header li {
+	display: inline;
+	margin: 0 16px;
+}
+
+header li a {
+	color: #fff;
+	text-decoration: none;
+	border: none;
+}
+
+main, footer {
+	margin: 0 auto;
+	padding: 0 16px;
+	max-width: 905px;
+}
+
+h2 {
+	font-size: 48px;
+}
+
+h3 {
+	font-size: 32Px;
+}
+
+a {
+	text-decoration: none;
+	color: #567119;
+	border-bottom: 1px solid #567119;
+}
+
+a:hover, a:focus {
+	border: none;
+}
+
+a:active {
+	background-color: #567119;
+	color: #fff;
+}
+
+footer {
+	border-top: 1px solid #ccc;
+}
+
+img {
+	width: 300px;
+}
